@@ -23,9 +23,14 @@ tags:
 - 使用Dockerfile中的说明创建新的Docker镜像`docker image build --tag $DOCKERID/linux_tweet_app:1.0 .`
 - 从镜像启动一个新的容器`docker container run --detach --publish 80:80 --name linux_tweet_app $DOCKERID/linux_tweet_app:1.0`
 - 优雅地停止容器 `docker container stop`
+- 启动容器`docker start dockker_name`
 - 删除 `docker container rm`
 - 强制删除 `docker container rm --force linux_tweet_app `
 -- 查看镜像`docker image ls`
 - 挂载目录到容器 `docker container run --detach --publish 80:80 --name linux_tweet_app --mount type=bind,source="$(pwd)",target=/usr/share/nginx/html  $DOCKERID/linux_tweet_app:1.0 `
+- `docker container run --detach --publish 27017:27017 --name heuristic_shtern --mount type=bind,source="c:/data/db/",target=/data/db/  mongo`
 - 搜索Docker主机上的镜像`docker image ls -f reference="$DOCKERID/*"`
 - 在推送图像之前，您需要登录Docker Hub`docker login`提供Docker ID凭据后推送`docker image push $DOCKERID/linux_tweet_app:1.0 `,浏览`https://hub.docker.com/r/<your docker id>/`
+- docker镜像检索`docker search 镜像名字`
+- 删除指定镜像`docker rmi image-id`
+- 挂载数据文件`docker run -p 27017:27017 -i -v /c/data/db:/data/db -d mongo`

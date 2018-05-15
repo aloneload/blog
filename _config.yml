@@ -27,7 +27,7 @@ category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
-    - '_posts/*.html'
+    
 
 # Writing
 new_post_name: :title.md # File name of new posts
@@ -82,4 +82,15 @@ deploy:
   type: git
   repository: https://github.com/aloneload/aloneload.github.io.git
   branch: master
+math:
+  engine: 'mathjax' # or 'katex'
+  mathjax:
+    src: custom_mathjax_source
+    config:
+      # MathJax config
+  katex:
+    css: custom_css_source
+    js: custom_js_source # not used
+    config:
+      # KaTeX config
 
