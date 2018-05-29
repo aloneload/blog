@@ -37,5 +37,10 @@ $ hexo deploy
 
 More info: [Deployment](https://hexo.io/docs/deployment.html)
 
+## 嵌入jupyter notebook 
+上传jupyter notebook至github,前面加入`http://nbviewer.jupyter.org/`,markdown文件中添加如下即可
+```
+<iframe  width="1000"   height="1000" src="http://nbviewer.jupyter.org/github/aloneload/ai/blob/master/ai_notebook.ipynb" frameborder="0" scrolling = "no"></iframe>
+```
 ## more
 Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).

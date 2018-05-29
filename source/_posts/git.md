@@ -5,7 +5,8 @@ categories:
 tags: 
 - git 
 ---
-
+#### git笔记
+![备忘](git.png)
 1. 通过点击页面右上角的'Fork'按钮来分叉[项目存储库]
 
 
@@ -103,3 +104,19 @@ tags:
 - 建立本地分支和远程分支的关联，使用git branch --set-upstream branch-name origin/branch-name；
 
 - 从远程抓取分支，使用git pull，如果有冲突，要先处理冲突。
+
+- 补充提交`git commit --amend`
+
+- 撤销上次提交`git reset --soft HEAD~`
+
+- 撤销上次提交和暂存区`git reset --mixed HEAD~`
+
+- 撤销所有，整体回到上次修改`get reset --hard HEAD~`
+
+- 将文件从暂存区撤回`git reset HEAD readme.txt`
+
+- 撤销文件的修改`git checkout -- readme.md`
+
+#### git flow
+![git flow](flow.png)
+

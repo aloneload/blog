@@ -1,0 +1,37 @@
+<svg height="138pt" viewBox="0.00 0.00 307.00 138.00" width="307pt" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g class="graph" id="graph0" transform="scale(1 1) rotate(0) translate(4 134)">
+<title>G</title>
+<polygon fill="white" points="-4,4 -4,-134 303,-134 303,4 -4,4" stroke="none"/>
+<!-- 1410385280136 -->
+<g class="node" id="node1"><title>1410385280136</title>
+<polygon fill="none" points="0,-83.5 0,-129.5 299,-129.5 299,-83.5 0,-83.5" stroke="black"/>
+<text font-family="Times New Roman,serif" font-size="14.00" text-anchor="middle" x="83" y="-102.8">dense_5_input: InputLayer</text>
+<polyline fill="none" points="166,-83.5 166,-129.5 " stroke="black"/>
+<text font-family="Times New Roman,serif" font-size="14.00" text-anchor="middle" x="194" y="-114.3">input:</text>
+<polyline fill="none" points="166,-106.5 222,-106.5 " stroke="black"/>
+<text font-family="Times New Roman,serif" font-size="14.00" text-anchor="middle" x="194" y="-91.3">output:</text>
+<polyline fill="none" points="222,-83.5 222,-129.5 " stroke="black"/>
+<text font-family="Times New Roman,serif" font-size="14.00" text-anchor="middle" x="260.5" y="-114.3">(None, 13)</text>
+<polyline fill="none" points="222,-106.5 299,-106.5 " stroke="black"/>
+<text font-family="Times New Roman,serif" font-size="14.00" text-anchor="middle" x="260.5" y="-91.3">(None, 13)</text>
+</g>
+<!-- 1410380076424 -->
+<g class="node" id="node2"><title>1410380076424</title>
+<polygon fill="none" points="31,-0.5 31,-46.5 268,-46.5 268,-0.5 31,-0.5" stroke="black"/>
+<text font-family="Times New Roman,serif" font-size="14.00" text-anchor="middle" x="83" y="-19.8">dense_5: Dense</text>
+<polyline fill="none" points="135,-0.5 135,-46.5 " stroke="black"/>
+<text font-family="Times New Roman,serif" font-size="14.00" text-anchor="middle" x="163" y="-31.3">input:</text>
+<polyline fill="none" points="135,-23.5 191,-23.5 " stroke="black"/>
+<text font-family="Times New Roman,serif" font-size="14.00" text-anchor="middle" x="163" y="-8.3">output:</text>
+<polyline fill="none" points="191,-0.5 191,-46.5 " stroke="black"/>
+<text font-family="Times New Roman,serif" font-size="14.00" text-anchor="middle" x="229.5" y="-31.3">(None, 13)</text>
+<polyline fill="none" points="191,-23.5 268,-23.5 " stroke="black"/>
+<text font-family="Times New Roman,serif" font-size="14.00" text-anchor="middle" x="229.5" y="-8.3">(None, 1)</text>
+</g>
+<!-- 1410385280136&#45;&gt;1410380076424 -->
+<g class="edge" id="edge1"><title>1410385280136-&gt;1410380076424</title>
+<path d="M149.5,-83.3664C149.5,-75.1516 149.5,-65.6579 149.5,-56.7252" fill="none" stroke="black"/>
+<polygon fill="black" points="153,-56.6068 149.5,-46.6068 146,-56.6069 153,-56.6068" stroke="black"/>
+</g>
+</g>
+</svg>
