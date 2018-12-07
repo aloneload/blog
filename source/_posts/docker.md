@@ -34,3 +34,13 @@ tags:
 - docker镜像检索`docker search 镜像名字`
 - 删除指定镜像`docker rmi image-id`
 - 挂载数据文件`docker run -p 27017:27017 -i -v /c/data/db:/data/db -d mongo`
+- 挂载卷`docker container run -v HOST_PATH:CONTAINER_PATH [OPTIONS] IMAGE [CMD]`
+- 创建volume`docker volume create --name html`
+- 挂载volune`docker container run --name www -d -p 8080:80 -v html:/usr/share/nginx/html nginx`
+- 列出网络`brctl show`
+- 查找网络`docker network inspect bridge`
+- 测试网络`ping -c5 172.17.0.2`
+- 拉取镜像`docker image pull alpine`
+- 启动交互式容器`docker container run -it alpine /bin/sh`
+- 运行容器后创建镜像`docker container commit CONTAINER_ID`
+- 标记镜像`docker image tag <IMAGE_ID> ourfiglet`

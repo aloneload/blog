@@ -93,4 +93,9 @@ math:
     js: custom_js_source # not used
     config:
       # KaTeX config
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000
 

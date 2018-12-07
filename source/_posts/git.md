@@ -184,3 +184,6 @@ git branch -d hotfix-1.0
 git tag -a v1.0 master
 git push --tags
 ```
+- 合并
+git merge --squash dev
+git commit -m ""
