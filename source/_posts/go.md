@@ -303,6 +303,13 @@ func main() {
 	fmt.Println(c.Value("somekey"))
 }
 ```
+- sync.Mutex(互斥锁,一读一写)
+- sync.RWMutex(读写锁,可以多读一写)
+- sync.Pool(对象池, 合理利用可以减少内存分配, 降低GC压力)
+- sync.Once(并发控制. 适用于开几个goroutines去执行一个只执行一次的任务, 比如单例模式)
+- sync.Cond(并发控制, cond.Wait()阻塞至其他goroutie运行到cond.Signal())
+- sync.WaitGroup(并发控制. 通常用法 wg.Add增加任务数量 goroutie完成任务后执行wg.Done,任务数量减1 wg.Wait等待wg任务数量为0)
+
 ## web服务
 目前主流的web服务：REST/SOAP
 

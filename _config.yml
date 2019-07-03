@@ -5,8 +5,8 @@
 # Site
 title: aloneload的博客
 subtitle: 精于工、匠于心、品于行
-description: 精于工、匠于心、品于行
-keywords:
+description: 面向对象思想，设计模式，数据结构与算法，网络编程,JVM运行机制，多线程开发，分布式开发,Java，go，数据库设计和调优,机器学习、深度学习等AI相关
+keywords: java go web 服务 开发
 author: aloneload
 language: zh-CN
 timezone:
@@ -99,3 +99,19 @@ search:
   format: html
   limit: 10000
 
+# hexo-neat 静态资源压缩
+neat_enable: true 
+neat_html:
+  enable: true
+  exclude: 
+neat_css:
+  enable: false
+  exclude:
+    - '*.min.css'
+neat_js:
+  enable: true
+  mangle: true
+  output:
+  compress:
+  exclude:
+    - '*.min.js'
